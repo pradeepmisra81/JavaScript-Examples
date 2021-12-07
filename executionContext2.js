@@ -1,5 +1,5 @@
 function y() {
-    var var1;
+    //var var1;
     console.log(var1);
 }
 
