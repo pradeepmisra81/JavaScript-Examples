@@ -10,3 +10,25 @@ var anonymousWelcome = function() {
 }
 
 anonymousWelcome();
+
+var welcome = () => {
+    console.log('Welcome!');
+}
+
+welcome();
+
+function printTheObject(x) {
+    console.log(x);
+}
+
+printTheObject(function() {
+    console.log('Welcome');
+});
+
+function callFunctionInsideFunction(x) {
+    x();
+}
+
+callFunctionInsideFunction(function() {
+    console.log('Welcome');
+});
